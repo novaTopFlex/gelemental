@@ -103,12 +103,26 @@ ColorButton::is_force_needed ()
 {
 	static const char *OFFENDING_THEMES[] = 
 	{
+		"Adapta",
+		"Adapta-Eta",
+		"Adapta-Nokto",
+		"Adapta-Nokto-Eta",
 		"Adwaita",
 		"Adwaita-dark",
 		"Amaranth",
+		"DarkBlood",
+		"DarkCold",
+		"DarkFire",
+		"DarkMint",
 		"Lush",
 		"Nuvola",
 		"New Wave",
+		"Materia",
+		"Materia-compact",
+		"Materia-dark",
+		"Materia-dark-compact",
+		"Materia-light",
+		"Materia-light-compact",
 		"Mint-X",
 		"Mint-X-Aqua",
 		"Mint-X-Blue",
@@ -152,6 +166,10 @@ ColorButton::is_force_needed ()
 		"Mint-Y-Purple",
 		"Mint-Y-Sand",
 		"Mint-Y-Teal",
+		"New Wave",
+		"New Wave Dark Menus",
+		"Pop",
+		"Pop-dark",
 		"WhiteSur",
 		"WhiteSur-light",
 		"WhiteSur-dark",
@@ -180,6 +198,8 @@ ColorButton::is_force_needed ()
 		"Yaru-purple-dark",
 		"Yaru-magenta-dark",
 		"Yaru-red-dark",
+		"Yuyo",
+		"Yuyo-dark",
 		NULL
 	};
 
